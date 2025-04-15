@@ -11,6 +11,7 @@ import com.tkapplications.tracknplan.ui.theme.TrackNGoAppTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        enableEdgeToEdge()
         val modifier = Modifier
         setContent {
             TrackNGoAppTheme  {
