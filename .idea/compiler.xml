@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <bytecodeTargetLevel target="21" />
+    <bytecodeTargetLevel target="21">
+      <module name="build-logic.convention" target="17" />
+      <module name="build-logic.convention.main" target="17" />
+      <module name="build-logic.convention.test" target="17" />
+      <module name="Track N Plan.core.Track_N_Plan.core.common" target="21" />
+      <module name="Track N Plan.core.Track_N_Plan.core.database" target="21" />
+      <module name="Track N Plan.core.Track_N_Plan.core.network" target="21" />
+      <module name="Track N Plan.core.Track_N_Plan.core.notifications" target="21" />
+      <module name="Track N Plan.core.Track_N_Plan.core.testing" target="21" />
+      <module name="Track N Plan.core.Track_N_Plan.core.ui" target="21" />
+      <module name="Track N Plan.feature.Track_N_Plan.feature.add" target="21" />
+      <module name="Track N Plan.feature.Track_N_Plan.feature.excercises" target="21" />
+      <module name="Track N Plan.feature.Track_N_Plan.feature.home" target="21" />
+    </bytecodeTargetLevel>
   </component>
 </project>
