@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.tracknplan.android.library)
-    alias(libs.plugins.kotlin.android)
+    alias(libs.plugins.tracknplan.android.room)
+    alias(libs.plugins.tracknplan.hilt)
 }
 
 android {
@@ -9,4 +10,5 @@ android {
 
 dependencies {
     androidTestImplementation(libs.androidx.test.core)
+    androidTestImplementation(libs.kotlinx.coroutines.test)
 }

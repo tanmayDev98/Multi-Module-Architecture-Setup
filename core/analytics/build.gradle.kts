@@ -1,5 +1,7 @@
 plugins {
     alias(libs.plugins.tracknplan.android.library)
+    alias(libs.plugins.tracknplan.android.lib.compose)
+    alias(libs.plugins.tracknplan.hilt)
 }
 
 android {

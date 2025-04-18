@@ -5,7 +5,9 @@ import org.gradle.api.Project
 import org.gradle.kotlin.dsl.apply
 import org.gradle.kotlin.dsl.configure
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
+import org.jetbrains.kotlin.gradle.dsl.KotlinAndroidProjectExtension
 import org.jetbrains.kotlin.gradle.dsl.KotlinJvmCompilerOptions
+import org.jetbrains.kotlin.gradle.dsl.KotlinJvmProjectExtension
 
 @Suppress("UnstableApiUsage")
 class AndroidApplicationConventionPlugin : Plugin<Project> {
@@ -23,13 +25,13 @@ class AndroidApplicationConventionPlugin : Plugin<Project> {
                 compileOptions {
                     sourceCompatibility = JavaVersion.VERSION_17
                     targetCompatibility = JavaVersion.VERSION_17
-                    isCoreLibraryDesugaringEnabled = true
+                    //isCoreLibraryDesugaringEnabled = true
                 }
                 testOptions.animationsDisabled = true
             }
 
-            project.extensions.configure<KotlinJvmCompilerOptions> {
-                jvmTarget.set(JvmTarget.JVM_17)
+            extensions.configure<KotlinAndroidProjectExtension> {
+              compilerOptions.jvmTarget.set(JvmTarget.JVM_17)
             }
         }
     }

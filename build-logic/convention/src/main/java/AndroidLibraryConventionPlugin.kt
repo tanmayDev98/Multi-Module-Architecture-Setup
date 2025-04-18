@@ -34,7 +34,7 @@ class AndroidLibraryConventionPlugin : Plugin<Project> {
             }
             dependencies {
                 "androidTestImplementation"(libs.findLibrary("kotlin.test").get())
-                "implementation"(libs.findLibrary("androidx-ui-tooling-preview").get())
+                "implementation"(libs.findLibrary("androidx-compose-ui-tooling-preview").get())
                 "testImplementation"(libs.findLibrary("kotlin.test").get())
             }
         }

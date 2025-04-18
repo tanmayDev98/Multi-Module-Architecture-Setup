@@ -1,9 +1,6 @@
 plugins {
-    alias(libs.plugins.tracknplan.android.library)
-}
-
-android {
-    namespace = "com.tkapplications.core.common"
+    alias(libs.plugins.tracknplan.jvm.library)
+    alias(libs.plugins.tracknplan.hilt)
 }
 
 dependencies {
