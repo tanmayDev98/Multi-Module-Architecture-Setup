@@ -1,6 +1,6 @@
 plugins {
-    alias(libs.plugins.tracknplan.android.library)
-    alias(libs.plugins.tracknplan.android.lib.compose)
+    alias(libs.plugins.multimodularsetup.android.library)
+    alias(libs.plugins.multimodularsetup.android.lib.compose)
 }
 
 android {

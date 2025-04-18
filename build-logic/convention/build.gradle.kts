@@ -32,35 +32,35 @@ dependencies {
 gradlePlugin {
     plugins {
         register("androidApplicationCompose") {
-            id = libs.plugins.tracknplan.android.application.compose.get().pluginId
+            id = libs.plugins.multimodularsetup.android.application.compose.get().pluginId
             implementationClass = "AndroidApplicationComposeConventionPlugin"
         }
         register("androidApplication") {
-            id = libs.plugins.tracknplan.android.application.asProvider().get().pluginId
+            id = libs.plugins.multimodularsetup.android.application.asProvider().get().pluginId
             implementationClass = "AndroidApplicationConventionPlugin"
         }
         register("androidLibrary") {
-            id = libs.plugins.tracknplan.android.library.get().pluginId
+            id = libs.plugins.multimodularsetup.android.library.get().pluginId
             implementationClass = "AndroidLibraryConventionPlugin"
         }
         register("hilt") {
-            id = libs.plugins.tracknplan.hilt.get().pluginId
+            id = libs.plugins.multimodularsetup.hilt.get().pluginId
             implementationClass = "HiltConventionPlugin"
         }
         register("androidFeature") {
-            id = libs.plugins.tracknplan.android.feature.get().pluginId
+            id = libs.plugins.multimodularsetup.android.feature.get().pluginId
             implementationClass = "AndroidFeatureConventionPlugin"
         }
         register("androidLibraryCompose") {
-            id = libs.plugins.tracknplan.android.lib.compose.get().pluginId
+            id = libs.plugins.multimodularsetup.android.lib.compose.get().pluginId
             implementationClass = "AndroidLibraryComposeConventionPlugin"
         }
         register("jvmLibrary") {
-            id = libs.plugins.tracknplan.jvm.library.get().pluginId
+            id = libs.plugins.multimodularsetup.jvm.library.get().pluginId
             implementationClass = "JvmLibraryConventionPlugin"
         }
         register("androidRoom") {
-            id = libs.plugins.tracknplan.android.room.get().pluginId
+            id = libs.plugins.multimodularsetup.android.room.get().pluginId
             implementationClass = "AndroidRoomConventionPlugin"
         }
     }

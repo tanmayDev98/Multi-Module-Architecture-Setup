@@ -108,11 +108,11 @@ kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
 android-library = { id = "com.android.library", version.ref = "agp" }
 
 # Plugins defined by this project
-tracknplan-android-application = { id = "tracknplan.android.application" }
-tracknplan-android-application-compose = {id = "tracknplan.android.application.compose"}
-tracknplan-android-library = { id = "tracknplan.android.library" }
-tracknplan-android-lib-compose = { id = "tracknplan.android.lib.compose" }
-tracknplan-android-feature = { id = "tracknplan.android.feature" }
-tracknplan-hilt = { id = "tracknplan.hilt" }
-tracknplan-android-room = { id = "tracknplan.android.room" }
-tracknplan-jvm-library = { id = "tracknplan.jvm.library" }
+multimodularsetup-android-application = { id = "multimodularsetup.android.application" }
+multimodularsetup-android-application-compose = {id = "multimodularsetup.android.application.compose"}
+multimodularsetup-android-library = { id = "multimodularsetup.android.library" }
+multimodularsetup-android-lib-compose = { id = "multimodularsetup.android.lib.compose" }
+multimodularsetup-android-feature = { id = "multimodularsetup.android.feature" }
+multimodularsetup-hilt = { id = "multimodularsetup.hilt" }
+multimodularsetup-android-room = { id = "multimodularsetup.android.room" }
+multimodularsetup-jvm-library = { id = "multimodularsetup.jvm.library" }

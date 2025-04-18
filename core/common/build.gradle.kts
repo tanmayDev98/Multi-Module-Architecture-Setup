@@ -1,6 +1,6 @@
 plugins {
-    alias(libs.plugins.tracknplan.jvm.library)
-    alias(libs.plugins.tracknplan.hilt)
+    alias(libs.plugins.multimodularsetup.jvm.library)
+    alias(libs.plugins.multimodularsetup.hilt)
 }
 
 dependencies {

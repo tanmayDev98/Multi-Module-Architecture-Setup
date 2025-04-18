@@ -1,15 +1,15 @@
 plugins {
-    alias(libs.plugins.tracknplan.android.application)
-    alias(libs.plugins.tracknplan.android.application.compose)
-    alias(libs.plugins.tracknplan.hilt)
+    alias(libs.plugins.multimodularsetup.android.application)
+    alias(libs.plugins.multimodularsetup.android.application.compose)
+    alias(libs.plugins.multimodularsetup.hilt)
     alias(libs.plugins.kotlin.serialization)
 }
 
 android {
-    namespace = "com.tkapplications.tracknplan"
+    namespace = "com.tkapplications.multimodularsetup"
 
     defaultConfig {
-        applicationId = "com.tkapplications.tracknplan"
+        applicationId = "com.tkapplications.multimodularsetup"
         versionCode = 1
         versionName = "1.0"
     }

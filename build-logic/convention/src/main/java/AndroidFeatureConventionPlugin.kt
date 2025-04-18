@@ -9,8 +9,8 @@ import org.gradle.kotlin.dsl.dependencies
 class AndroidFeatureConventionPlugin : Plugin<Project> {
     override fun apply(target: Project) {
         with(target) {
-            apply(plugin = "tracknplan.android.library")
-            apply(plugin = "tracknplan.hilt")
+            apply(plugin = "multimodularsetup.android.library")
+            apply(plugin = "multimodularsetup.hilt")
 
             extensions.configure<LibraryExtension> {
                 testOptions.animationsDisabled = true
